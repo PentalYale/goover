@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Korea Search">
+	<meta property="og:description" content="한국이 이용할 검색 가능한 사이트. 물론 네이버나 구글(크롬)을 이용해 검색 할 수있다. 다른 추가기능도 추가 될 예정이다!">
+	<meta property="og:url" content="https://goover.netlify.app/index.html">
+	<meta name="naver-site-verification" content="323508ce9b561a8396b134e88176dcca3e04965d" />
+	<meta name="robots" content="index,follow">
+	<!-- <link rel="shortcut icon" href="http://www.mysite.com/favicon.ico"> -->
+	<title>Korea Search</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="한국이 이용할 검색 가능한 사이트. 물론 네이버나 구글(크롬)을 이용해 검색 할 수있다. 다른 추가기능도 추가 될 예정이다!">
+	<meta name="keywords" content="구글 ,네이버 ,검색 ,검색엔진 ,한국 ,대한민국 ,한국검색 ,더보기 ,search ,google ,naver ,Enver-Se ,enverse ,PentalYale">
+	<meta name="author" content="Enver-Se">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="canonical" href="https://goover.netlify.app/index.html">
+	<link rel="shortcut icon" href="favicon-16x16.png">
+</head>
+<body bgcolor="black">
+	
+	<script type="text/javascript">
+		var user_country = confirm("한국 사이트입니다. It's Korean Website. 这是一个韩国网站")
+		if (user_country == false) {
+			alert('응,취소 못해~ You cant cancel it~   是的，我不能取消。')
+		}
+	</script>		
+	
+	<form action="indexg.html">
+		<input type="submit" value="구글 이용">
+	</form>	
+
+		<h1 id="Mygle_"><a href="#"><span>K</span><span>o</span>r<span>e</span><span>a</span></a></h1>
+
+	<form action="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=&oquery=" method="get">
+		<div style="text-align:center">
+			<input type="search" placeholder="검색어 입력" style="width:75%;height:60px;font-size:30px;" id="url_input" value="애국가" name="query" >
+			<input type="submit" value="검색" id="url_sub">
+		</div>
+	</form>
+
+	<footer id="footer">
+		<a href="admin_info.html" id="admin-info_">Made By Enver-Se</a>
+		<a>geniusboy0225@gmail.com</a>
+		<form action="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=&oquery=" method="get">
+				<input type="search"  name="query" placeholder="긴급용 검색창"> <input type="submit" value="검색" >
+		</form>
+	</footer>
+</body>
+</html>

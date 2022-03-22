@@ -1,0 +1,41 @@
+div {
+	text-align: center;
+	color: white;
+}
+
+#nickname {
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#nickname span:nth-child(1) {
+	color: #489CFF;
+}
+
+#nickname span:nth-child(2) {
+	color: #53FF4C;
+}
+
+#nickname span:nth-child(3) {
+	color: #A566FF;
+}
+
+
+#birthdate {
+	margin-top: 0px;
+}
+
+legend {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+input {
+	background-color: black;
+	color: blue;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}

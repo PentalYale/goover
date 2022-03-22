@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap: https://goover.netlify.app/sitemap.xml
